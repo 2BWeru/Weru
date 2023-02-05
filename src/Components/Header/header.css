@@ -1,0 +1,25 @@
+
+.card {
+    width: 1890px;
+    height: 654px;
+    background-color:#051416;
+    border-radius: 2px;
+    margin: 2rem 4rem;
+    background: #051416;
+    box-shadow: 5px 5px 10px rgb(25, 25, 25),
+                -5px -5px 10px rgb(60, 60, 60);
+}
+.card-image {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+
+.card-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+   
