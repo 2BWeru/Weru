@@ -1,0 +1,33 @@
+hr{
+    width:5rem;
+}
+
+img{
+    position: relative;
+}
+.service-text{
+  border: 2px solid black;
+  height: 20rem;
+  
+}
+.service-text p{
+    font-size: 1rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+.icons{
+    font-size: 2rem;
+    color: black;
+    margin-left: 10rem;
+    margin-top:2rem;
+}
+.service-header{
+    top:4rem;
+    margin-left: 6rem;
+    margin-bottom: 5rem;
+    font-weight: 700;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
