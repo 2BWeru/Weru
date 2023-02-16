@@ -18,7 +18,7 @@ function Services () {
       <div class="services_section layout_padding">
          <div class="container">
             <h4>My Services</h4>
-            <h1 class="services_taital"><hr />What Can I Do</h1>
+            <h1 class="services_taital"><hr />What I Do</h1>
             
             <div class="services_section_2">
                <div class="row">

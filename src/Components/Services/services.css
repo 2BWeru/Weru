@@ -1,12 +1,14 @@
 hr{
-    width:5rem;
+    border-radius: 1rem;
+    width: 8rem;
+    background-color:#4ce3f7;
 }
 
 img{
     position: relative;
 }
 .service-text{
-  border: 2px solid black;
+  border: 2px solid gray;
   height: 20rem;
   
 }
@@ -14,10 +16,11 @@ img{
     font-size: 1rem;
     font-weight: 300;
     margin-bottom: 2rem;
+    color: whitesmoke;
 }
 .icons{
     font-size: 2rem;
-    color: black;
+    color: plum;
     margin-left: 10rem;
     margin-top:2rem;
 }
