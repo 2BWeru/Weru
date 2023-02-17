@@ -1,5 +1,5 @@
 import React from "react";
-import about from "../../static/Images/1.jpg";
+import about from "../../static/Images/1676115078201-removebg-preview.png";
 import "./about.css";
 
 
@@ -14,18 +14,17 @@ function About() {
                <div class="col-md-6">
                   <div class="about_taital_main">
                     <h4>About Me</h4>
-                     <h1 class="about_taital">Discover<hr /></h1>
+                     <h1 class="about_taital">Hi There<hr /></h1>
                      <p class="about_text">
-                     I am a junior web developer with a passion for creating innovative and engaging websites and web applications. I am constantly seeking new and exciting opportunities to expand my skillset and gain practical experience.
-
-                     I am an ambitious individual who thrives in a fast-paced and dynamic environment. I am dedicated to delivering high-quality work that exceeds expectations and am always eager to learn and grow as a developer. My goal is to work with a team of like-minded individuals who are passionate about using technology to solve real-world problems and create meaningful and impactful digital experiences.
+                     I am a web developer with a passion for creating innovative and engaging websites and web applications. I am constantly seeking new and exciting opportunities to expand my skillset and gain practical experience.
                       <br />
                       <br />
 
                      If you are looking for a junior web developer who is passionate, driven, and eager to contribute to the success of your organization, I would be honored to hear from you.
                      </p>
                      <br />
-                     <h3>Skills</h3>
+
+                     <h1 className="skills">...</h1>
                      <div class="row">
                        <div class="col-2">
                          <div>
@@ -46,7 +45,7 @@ function About() {
                      <div class="row">
                        <div class="col-2">
                          <div>
-                           <p className="about-txt">Java</p>
+                           <p className="about-txt">Rest API</p>
                          </div>
                        </div>
                        <div class="col-2">
@@ -77,9 +76,7 @@ function About() {
                <div class="col-md-6 padding_right_0">
                   <div>
                     <img src={about} class="about_img" />
-                    <div className="centered">
-                      <h1 className="head-text">Who <br />Am<br />  I</h1>
-                    </div>
+                    
                   </div>
                </div>
             </div>

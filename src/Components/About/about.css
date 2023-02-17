@@ -7,7 +7,9 @@ p{
     background-color:#051416;
 
 } */
-
+.skills{
+    color: #000000;
+}
 .head-text{
     position: absolute;
     font-size: 3rem;
@@ -15,7 +17,7 @@ p{
     top: 68rem;
     left: 78rem;
     color: #4ce3f7;
-    border: 10px solid white;
+    border: 10px solid #4ce3f7;
     padding: 5rem 8rem;
 }
 
@@ -25,16 +27,16 @@ h3{
     font-weight: 900;
 }
 .about-txt{
-    border: 5px solid #000000;
+    border: 5px solid #4ce3f7;
     padding: 1rem;
     margin: 1rem;
     width: 9rem;
     border-radius: 5%;
 }
-.skill{
+/* .skill{
     display: flex;
     flex-direction: column;
-}
+} */
 
 
 
