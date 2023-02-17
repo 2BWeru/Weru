@@ -1,25 +1,17 @@
-
-.card {
-    width: 1890px;
-    height: 654px;
-    background-color:#051416;
-    border-radius: 2px;
-    margin: 2rem 4rem;
-    background: #051416;
-    box-shadow: 5px 5px 10px rgb(25, 25, 25),
-                -5px -5px 10px rgb(60, 60, 60);
+.img-top{
+  width:190rem;
+  top:1rem;
+  left: 50rem;
 }
-.card-image {
-    position: relative;
-    text-align: center;
-    color: white;
-  }
-  
-
-.card-text{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.name{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 3rem;
+  font-style: italic;
 }
-   
+
+.line{
+  color: plum;
+  width: 23rem;
+  font-size: 5rem;
+}
+

@@ -1,7 +1,9 @@
 import React from "react";
 import logo from "../../static/images/logo.png";
-
-
+import header1 from "../../static/Images/1676115112461-removebg-preview.png"
+import header2 from "../../static/Images/1676115078174-removebg-preview.png"
+// import {BsArrowDownCircleFill} from "react-icons/bs";
+import "./header.css"
 
 function Header() {
     return(
@@ -37,36 +39,21 @@ function Header() {
                </nav>
             </div>
             <div class="container-fluid">
-               <div class="logo"><a href="index.html"><img src={logo} /></a></div>
                <div class="menu_main">
-                  <ul>
-                     <li class="active"><a href="index.html">Home</a></li>
-                     <li><a href="about.html">About</a></li>
-                     <li><a href="services.html">Services</a></li>
-                     <li><a href="blog.html">Blog</a></li>
-                     <li><a href="contact.html">Contact us</a></li>
-                  </ul>
+                  <h2 className="name">BETTY <span className="line">|</span> WAMAITHA <span className="line">|</span>WERU</h2>
                </div>
             </div>
          </div>
          {/* <!-- banner section start --> */}
          <div class="banner_section layout_padding">
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-               <div class="carousel-inner">
-                  <div class="carousel-item active">
                      <div class="container">
-                        <h1 class="banner_taital">Betty Wamaitha </h1>
-                        <h3 class="banner_text">A creative Freelancer & FrontEnd Web Developer</h3>
-                        <div class="read_bt"><a href="#">Hire Me</a></div>
+                              <h1 class="banner_taital">Hello! I'M Betty </h1>
+                              <h3 class="banner_text">I'm a creative Freelancer & FrontEnd Web Developer</h3>
+                     
                      </div>
-                  </div>
-                 
-                  
+                  </div> 
                </div>
-            </div>
-         </div>
-         {/* <!-- banner section end --> */}
-      </div>
+
       {/* <!-- header section end --> */}
      </>
     )
